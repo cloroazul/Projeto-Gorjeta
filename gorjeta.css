@@ -1,0 +1,85 @@
+h2{
+    color: hsl(304, 15%, 42%);
+}h1{
+    margin-block-start: 0em; 
+    color: hsl(304, 15%, 42%);
+    font-family: Georgia, serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 90px;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    
+}
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 1.5em;
+    border-radius: 1em;
+}
+textarea{
+    width: 100%;
+    margin-top: 2em;
+    border-radius: 1em;
+}
+.container{
+    background-color: #ffd7fc;
+    display: inline-flex;
+    padding: 2em;
+    border-radius: 2em;
+    flex-direction: column;
+    align-items: center;
+    width: 30em;
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 0px rgba(0,0,0,0);
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    border-radius: 1em;
+    background-color: hsl(304, 46%, 38%);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/fundo-do-arco-%C3%ADris-ps%C3%ADquico-hippie-trippy-lib-passado-wallpaper-colorido-ilus%C3%A3o-hipn%C3%B3tica-abstrata-textura-retro-brilho-de-e-232420147.jpg);
+}
+
+.gif2 img {
+    max-width:600px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    position: absolute; 
+	left: 1000px; /* posiciona a 90px para a esquerda */ 
+	top: 570px; /* posiciona a 70px para baixo */
+}
+
+.gif3 img {
+    max-width:200px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    position: absolute; 
+	left: 1280px; /* posiciona a 90px para a esquerda */ 
+	top: 20px; /* posiciona a 70px para baixo */
+}
+
+
